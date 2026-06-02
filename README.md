@@ -1,4 +1,4 @@
-# 🗃️ Bin Packing Problem — MIPS Assembly
+#  Bin Packing Problem — MIPS Assembly
 
 > **ENCS4370 — Computer Architecture | Spring 2024/2025 | Birzeit University**
 
@@ -6,7 +6,7 @@ A MIPS assembly implementation of the classic **Bin Packing Problem** using two 
 
 ---
 
-## 📌 Problem Definition
+##  Problem Definition
 
 Given *n* items with sizes S₁, S₂, … Sₙ (each a float in `(0.0, 1.0]`), pack them into the **minimum number of unit-capacity bins**.
 
@@ -17,11 +17,11 @@ Given *n* items with sizes S₁, S₂, … Sₙ (each a float in `(0.0, 1.0]`), 
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 Download and install **MARS 4.5** (Java-based MIPS simulator):  
-👉 http://courses.missouristate.edu/kenvollmar/mars/
+ http://courses.missouristate.edu/kenvollmar/mars/
 
 ### Steps
 1. Open MARS
@@ -32,7 +32,7 @@ Download and install **MARS 4.5** (Java-based MIPS simulator):
 
 ---
 
-## 📂 Input File Format
+##  Input File Format
 
 A plain `.txt` file containing floating-point numbers between `0.0` and `1.0`, separated by **spaces**, **newlines**, or **tabs**.
 
@@ -47,7 +47,7 @@ Numbers outside the valid range or with invalid format are **silently skipped** 
 
 ---
 
-## 🖥️ Menu Options
+##  Menu Options
 
 ```
 Welcome to Bin Packing Problem Solution Program
@@ -69,7 +69,7 @@ Please Select an Operation from the Menu:
 
 ---
 
-## 📤 Output Format
+##  Output Format
 
 ### Console Output
 ```
@@ -85,7 +85,7 @@ Same format written to the specified output file.
 
 ---
 
-## 🏗️ Implementation Details
+##  Implementation Details
 
 ### File I/O
 - MARS syscalls 13/14/15/16 for open/read/write/close
@@ -134,7 +134,7 @@ A tolerance of `0.0001` is used in all capacity comparisons to handle floating-p
 
 ---
 
-## 📋 Limitations
+##  Limitations
 - Maximum **100 items**
 - Maximum **100 bins**
 - Maximum **100 items per bin** (in storage)
@@ -142,7 +142,7 @@ A tolerance of `0.0001` is used in all capacity comparisons to handle floating-p
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - **Language:** MIPS Assembly
 - **Simulator:** MARS 4.5
 - **Architecture:** MIPS32
