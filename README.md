@@ -92,7 +92,7 @@ Same format written to the specified output file.
 - Reads up to 4096 bytes per file
 
 ### Parsing
-- Validates each token as a float in `(0.0, 1.0)`
+- Validates each token as a float in `(0.0, 1.0]`
 - Uses a custom floating-point parser (integer + fractional parts)
 - Tolerates multiple delimiters; skips invalid tokens
 
